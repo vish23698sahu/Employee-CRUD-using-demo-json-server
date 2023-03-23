@@ -1,0 +1,33 @@
+.home__header{
+    margin-bottom: 20px;
+}
+
+.home__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__card{
+    width: 300px;
+    height: 120px;
+    font-size: 20px;
+    background-color: brown;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-out;
+    margin-bottom: 2%;
+}
+
+.home__card:hover {
+    transform: scale(1.1);
+}
+
+.home__link{
+    text-decoration: none;
+    color: white;
+}
