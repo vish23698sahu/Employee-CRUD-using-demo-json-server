@@ -1,0 +1,71 @@
+.find__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.findemp__form{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.item__1{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.item__2{
+    border-color: rgb(217, 230, 236);
+    border-radius: 5px;
+}
+
+.find__btns{
+    width: 75%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.find__btn{
+    background-color: rgb(247, 182, 182);
+    color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 15px 20px;
+}
+
+.find__btn:hover{
+    background-color: rgb(246, 223, 223);
+    color: black;
+}
+
+.find__goback{
+    background-color: rgb(247, 182, 182);
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 15px 20px;
+}
+
+.find__goback:hover{
+    background-color: rgb(246, 223, 223);
+    color: black;
+}
+
+
+.valid__find{
+    color: rgb(226, 69, 69);
+    font-size: 13px;
+}

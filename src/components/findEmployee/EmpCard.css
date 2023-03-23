@@ -1,0 +1,43 @@
+.card__container{
+    display: flex;
+    justify-content: center;
+}
+
+.card__header{
+    width: 800px;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    border: 1px solid #320202;
+    border-radius: 5px;
+    background-color: rgb(241, 163, 163);
+    color: black;
+    height: 40px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+}
+
+.card__header:hover{
+    background-color: rgb(245, 205, 205);
+}
+
+.item__one{
+    width: 120px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.item__two{
+    width: 120px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.item__three{
+    margin-left: 30px;
+    text-align: start;
+    width: 380px;
+    font-size: 18px;
+}
+
