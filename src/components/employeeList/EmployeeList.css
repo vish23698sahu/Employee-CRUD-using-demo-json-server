@@ -1,0 +1,10 @@
+.goback__btn{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    columns: brown;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px 5px;
+}
