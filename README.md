@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<!-- json server start cmd: -->
+<!-- Below is the command to start our Fake json-server to test APIs -->
+
+json-server --port 7000 --routes routes.json --watch users.json
+
 ## Available Scripts
 
 In the project directory, you can run:
